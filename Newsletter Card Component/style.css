@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&family=Roboto:ital,wght@0,400;0,700;1,500&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #52758e69;
+}
+.box{
+    width: 800px;
+    background-color: #fff;
+    height: 50vh;
+    margin: auto;
+    margin-top: 160px;
+    border-radius: 20px;
+    box-shadow: 5px 6px 2px #6d96b369;
+    
+}
+.text{
+    padding:0px 50px;
+    padding-top: 40px;
+}
+.box .text h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    color: black;
+}
+.box .text p{
+    text-align: center;
+    font-size: 19px;
+}
+
+.msg{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 20px;
+}
+.msg input{
+    
+    width: 60%;
+    padding: 12px 5px;
+    outline: none;
+    border-radius: 5px;
+    border:2px solid #89909569;
+}
+
+input::placeholder{
+    font-size: 16px;
+    opacity: .5;
+}
+
+button{
+    padding: 10px;
+    background: black;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.checkbox{
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 30px;
+    padding:0px 80px;
+    gap: 10px;
+    
+}
+.checkbox input[type=checkbox]{
+    width: 3%;
+    height: 26px;
+ 
+  
+    
+}
+.checkbox p{
+    font-size: 12px;
+}

@@ -1,0 +1,74 @@
+@media(max-width:1024px){
+    .banner{
+        height: 100vh;
+    }
+    .banner-2{
+        position: absolute;
+        bottom: 120px;
+        right: 320px;
+    }
+}
+
+@media(max-width:376px){
+
+    .banner{
+        /* width: 60%; */
+        margin: 10px;
+        padding: 10px;
+        font-size: 20px;
+        height: 60vh;
+        display: flex;
+        align-items: start;
+        
+        
+    }
+    .p-banner{
+        /* width: 60%; */
+        margin: 10px;
+        padding: 10px;
+        font-size: 20px;
+        height: 60vh;
+        display: flex;
+        align-items: start;
+        
+        
+    }
+    .banner-1{
+        margin: 10px;
+        padding: 20px;
+        height: 30vh;
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .banner-2{
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        top: 220px;
+        right: 40px;
+    }
+
+    .Contact{
+        margin: 10px;
+        padding: 20px;
+    }
+
+    .from{
+        width: 100%;
+    }
+
+    .Portfolio{
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        height: 130vh;
+    }
+    .Portfolio .card{
+        margin: 10px;
+        width: 15rem;
+        height: 40vh;
+    }
+}
